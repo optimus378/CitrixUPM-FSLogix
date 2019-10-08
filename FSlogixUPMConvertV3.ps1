@@ -4,7 +4,7 @@ $usersfolderpath = "\\SERVER\users$\" ## Redirected Folders Path
 $oldprofilepath = "\\SERVER\CtxProfiles\" ### Old UPM Profile Path
 $newprofilepath = "\\SERVER\FSProfiles" ## New FSLogix Profile Path
 $upmfolderpath = "\Win2016v6\UPM_Profile\" ## The location of the UPM Profile relative to the Profile OSVersion. 
-$domain = "SAW" ## You should have to change this unless the users are in a cross-forest trust domain. 
+$domain = "Domain.loc" ## You should have to change this unless the users are in a cross-forest trust domain. 
 $vhdsize = "30720" ## Maximum VHD Size (in MB) -- This is the maximum size the VHD can expand to.
 
 #Brings up Gui Grid... Here you Select the profiles you'd like to convert out of the Grid View. Hold Ctrl to Select multiple. 
